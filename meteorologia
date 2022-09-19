@@ -7,9 +7,9 @@ int main(void)
 	setlocale(LC_ALL,"Portuguese");
 	char opcao;
 	
-	printf("Insira uma das opções\n");
+	printf("Insira uma das opÃ§Å‘es\n");
 	printf("1- Lisboa\n");
-	printf("2- Évora\n");
+	printf("2- Ã‰vora\n");
 	printf("3- Porto\n");
 	printf("4- Beja\n");
 	printf("4- Braga\n");
@@ -18,24 +18,24 @@ int main(void)
 	switch (opcao)
 	{
 				case  '1':
-			printf("max: 29ºC / min: 19ºC\n");
+			printf("max: 29ÅŸC / min: 19ÅŸC\n");
 			break;
 					case  '2':
-			printf("max: 30ºC / min: 18ºC\n");
+			printf("max: 30ÅŸC / min: 18ÅŸC\n");
 			break;
 				case  '3':
-			printf("max: 28ºC / min: 20ºC\n");
+			printf("max: 28ÅŸC / min: 20ÅŸC\n");
 			break;
 				case  '4':
-			printf("max: 30ºC / min: 19ºC\n");
+			printf("max: 30ÅŸC / min: 19ÅŸC\n");
 			break;
 				case  '5':
-			printf("max: 31ºC / min: 16ºC\n");
+			printf("max: 31ÅŸC / min: 16ÅŸC\n");
 			break;
 				
 			
 			default:
-				printf("Opção inválida\n");
+				printf("OpÃ§Äƒo invÃ¡lida\n");
 	}
 	
 	return 0;
